@@ -1,0 +1,56 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    color: #20214B;
+}
+.container {
+    border: 1px solid #E0E0E7;
+    margin-top: 50px;
+    
+}
+
+form {
+  
+}
+.alert {
+    border: 0.03rem solid #E0E0E7;
+    border-radius: 0.2em;
+    padding: 7px;
+    width: 98%;
+    margin: 10px;
+}
+
+header, 
+footer {
+    border: 0.03rem solid #E0E0E7;
+    border-radius: 0.2em;
+    background-color: #F6F6F5;
+    padding: 7px;
+}
+
+.metodos-de-pago  label{
+    display: block;
+    padding-bottom: 8px;
+}
+
+.metodos-de-pago input {
+    margin: 10px;
+}
+
+
+.informacion-direccion, 
+.datos-bancarios,
+.datos-personales,
+.metodos-de-pago {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    justify-content: right;
+}
+
+.botton-reset {
+    background: #C6C6CE;
+}
+
